@@ -4,9 +4,8 @@
     <TargetFramework>net8.0</TargetFramework>
     <ProjectGuid>{A0C4E31E-AC75-4F39-9F59-0AA19D9B8F46}</ProjectGuid>
   </PropertyGroup>
-
   <ItemGroup>
-  <PackageReference Include="Tailspin.SpaceGame.Web.Models" Version="1.0.0-CI-20250721-203534" />
+  <PackageReference Include="Tailspin.SpaceGame.Web.Models" Version="1.1.0-CI-20250722-171249" />
 </ItemGroup>
 
   <ItemGroup>
