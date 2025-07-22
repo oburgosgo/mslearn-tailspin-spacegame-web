@@ -36,8 +36,6 @@ steps:
   displayName: 'Write build info'
   workingDirectory: $(wwwrootDir)
 
-
-steps:
 - task: NuGetAuthenticate@1
   displayName: 'Authenticate with Azure Artifacts'
 
