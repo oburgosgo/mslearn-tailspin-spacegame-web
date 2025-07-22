@@ -36,6 +36,10 @@ steps:
   displayName: 'Write build info'
   workingDirectory: $(wwwrootDir)
 
+steps:
+- task: NuGetAuthenticate@1
+  displayName: 'Authenticate with Azure Artifacts'
+
 - task: DotNetCoreCLI@2
   displayName: 'Restore project dependencies'
   inputs:
